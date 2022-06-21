@@ -1,0 +1,87 @@
+Crescente 
+----Bubble sort----
+Tamanho: 10000
+Tempo: 0.000000 (s) 
+Numero de comparacoes: 9999
+Numero de trocas: 0
+----Bubble sort----
+Tamanho: 50000
+Tempo: 0.000000 (s) 
+Numero de comparacoes: 49999
+Numero de trocas: 0
+----Bubble sort----
+Tamanho: 100000
+Tempo: 0.000000 (s) 
+Numero de comparacoes: 99999
+Numero de trocas: 0
+----Insertion sort----
+Tamanho: 10000
+Tempo: 0.000000 (s) 
+Numero de comparacoes: 9999
+Numero de trocas: 0
+----Insertion sort----
+Tamanho: 50000
+Tempo: 0.000000 (s) 
+Numero de comparacoes: 49999
+Numero de trocas: 0
+----Insertion sort----
+Tamanho: 100000
+Tempo: 0.000000 (s) 
+Numero de comparacoes: 99999
+Numero de trocas: 0
+----Selection sort----
+Tamanho: 10000
+Tempo: 0.138345 (s) 
+Numero de comparacoes: 49995000
+Numero de trocas: 0
+----Selection sort----
+Tamanho: 50000
+Tempo: 3.481801 (s) 
+Numero de comparacoes: 1249975000
+Numero de trocas: 0
+----Selection sort----
+Tamanho: 100000
+Tempo: 15.443643 (s) 
+Numero de comparacoes: 4999950000
+Numero de trocas: 0
+Decrescente 
+----Bubble sort----
+Tamanho: 10000
+Tempo: 0.451487 (s) 
+Numero de comparacoes: 49995000
+Numero de trocas: 49995000
+----Bubble sort----
+Tamanho: 50000
+Tempo: 11.243747 (s) 
+Numero de comparacoes: 1249975000
+Numero de trocas: 1249975000
+----Bubble sort----
+Tamanho: 100000
+Tempo: 42.030225 (s) 
+Numero de comparacoes: 4999950000
+Numero de trocas: 4999950000
+----Insertion sort----
+Tamanho: 10000
+Tempo: 0.445477 (s) 
+Numero de comparacoes: 49995000
+Numero de trocas: 49995000
+----Insertion sort----
+Tamanho: 50000
+Tempo: 10.213954 (s) 
+Numero de comparacoes: 1249975000
+Numero de trocas: 1249975000
+----Insertion sort----
+Tamanho: 100000
+Tempo: 43.012620 (s) 
+Numero de comparacoes: 4999950000
+Numero de trocas: 4999950000
+----Selection sort----
+Tamanho: 10000
+Tempo: 0.143903 (s) 
+Numero de comparacoes: 49995000
+Numero de trocas: 5000
+----Selection sort----
+Tamanho: 50000
+Tempo: 3.663760 (s) 
+Numero de comparacoes: 1249975000
+Numero de trocas: 25000

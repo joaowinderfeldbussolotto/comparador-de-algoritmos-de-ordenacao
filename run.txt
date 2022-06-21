@@ -1,0 +1,31 @@
+echo Crescente >> trab.txt
+bubbleSort.exe < crescente-10000 >> trab.txt
+bubbleSort.exe < crescente-50000 >> trab.txt
+bubbleSort.exe < crescente-100000 >> trab.txt
+insertionSort.exe < crescente-10000 >> trab.txt
+insertionSort.exe < crescente-50000 >> trab.txt
+insertionSort.exe < crescente-100000 >> trab.txt
+selectionSort.exe < crescente-10000 >> trab.txt
+selectionSort.exe < crescente-50000 >> trab.txt
+selectionSort.exe < crescente-100000 >> trab.txt
+echo Decrescente >> trab.txt
+bubbleSort.exe < decrescente-10000 >> trab.txt
+bubbleSort.exe < decrescente-50000 >> trab.txt
+bubbleSort.exe < decrescente-100000 >> trab.txt
+insertionSort.exe < decrescente-10000 >> trab.txt
+insertionSort.exe < decrescente-50000 >> trab.txt
+insertionSort.exe < decrescente-100000 >> trab.txt
+selectionSort.exe < decrescente-10000 >> trab.txt
+selectionSort.exe < decrescente-50000 >> trab.txt
+selectionSort.exe < decrescente-100000 >> trab.txt
+echo Aleatorio >> trab.txt
+bubbleSort.exe < aleatorio-10000 >> trab.txt
+bubbleSort.exe < aleatorio-50000 >> trab.txt
+bubbleSort.exe < aleatorio-100000 >> trab.txt
+insertionSort.exe < aleatorio-10000 >> trab.txt
+insertionSort.exe < aleatorio-50000 >> trab.txt
+insertionSort.exe < aleatorio-100000 >> trab.txt
+selectionSort.exe < aleatorio-10000 >> trab.txt
+selectionSort.exe < aleatorio-50000 >> trab.txt
+selectionSort.exe < aleatorio-100000 >> trab.txt
+

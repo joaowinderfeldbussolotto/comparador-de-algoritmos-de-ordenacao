@@ -1,0 +1,15 @@
+----Bubble sort----
+Tamanho: 10000
+ ESSE Tempo dnv: 0.000000 (ms) 
+Numero de comparacoes: 9999
+Numero de trocas: 0
+----Bubble sort----
+Tamanho: 50000
+ ESSE Tempo dnv: 0.000000 (ms) 
+Numero de comparacoes: 49999
+Numero de trocas: 0
+----Bubble sort----
+Tamanho: 100000
+ ESSE Tempo dnv: 0.000000 (ms) 
+Numero de comparacoes: 99999
+Numero de trocas: 0
