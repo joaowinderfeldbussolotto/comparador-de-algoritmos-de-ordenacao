@@ -45,16 +45,21 @@ double getTimeInSeconds(struct timeval start, struct timeval stop){
    return ((double)(stop.tv_usec - start.tv_usec) / 1000000 + (double)(stop.tv_sec - start.tv_sec));
 }
 
-
-
-
 void printInfo(char* methodName, struct timeval start, struct timeval stop, long long int numCompare, long long int numSwaps, int lenght){
+  printf("%s,%d,%f,%lld,%lld\n", methodName, lenght, getTimeInSeconds(start, stop), numCompare, numSwaps);
+}
 
+
+void printInfoInTxt(char* methodName, struct timeval start, struct timeval stop, long long int numCompare, long long int numSwaps, int lenght){
+  double time = getTimeInSeconds(start, stop);
   printf("----%s----\n", methodName);
   printf("Tamanho: %d\n", lenght);
-  //printf("Tempo: %lu (us) \n", (stop.tv_sec - start.tv_sec) * 1000000 + stop.tv_usec - start.tv_usec);
-  //printf("Tempo: %f (s) \n", time);
-  printf("Tempo: %f (s) \n", getTimeInSeconds(start, stop));
+  if(time > 0.000000001){
+    printf("Tempo: %f (s) \n", time);
+  }
+  else{
+    printf("Tempo: Muito próximo de zero. \n");
+  }
   printf("Numero de comparacoes: %lld\n", numCompare);
   printf("Numero de trocas: %lld\n", numSwaps);
 }

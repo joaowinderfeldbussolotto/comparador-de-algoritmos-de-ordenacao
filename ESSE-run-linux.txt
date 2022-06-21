@@ -1,0 +1,31 @@
+echo metodo,tamanho,tempo,comparacoes,trocas >> ./dados-crescente.csv
+./bubbleSort.exe < ./crescente-10000 >> ./dados-crescente.csv
+./bubbleSort.exe < ./crescente-50000 >> ./dados-crescente.csv
+./bubbleSort.exe < /.crescente-100000 >> ./dados-crescente.csv
+./insertionSort.exe < ./crescente-10000 >> ./dados-crescente.csv
+./insertionSort.exe < ./crescente-50000 >> ./dados-crescente.csv
+./insertionSort.exe < ./crescente-100000 >> ./dados-crescente.csv
+./selectionSort.exe < ./crescente-10000 >> ./dados-crescente.csv
+./selectionSort.exe < ./crescente-50000 >> ./dados-crescente.csv
+./selectionSort.exe < ./crescente-100000 >> ./dados-crescente.csv
+echo metodo,tamanho,tempo,comparacoes,trocas >> ./dados-decrescente.csv
+./bubbleSort.exe < ./decrescente-10000 >> ./dados-decrescente.csv
+./bubbleSort.exe < ./decrescente-50000 >> ./dados-decrescente.csv
+./bubbleSort.exe < ./decrescente-100000 >> ./dados-decrescente.csv
+./insertionSort.exe < ./decrescente-10000 >> ./dados-decrescente.csv
+./insertionSort.exe < ./decrescente-50000 >> ./dados-decrescente.csv
+./insertionSort.exe < ./decrescente-100000 >> ./dados-decrescente.csv
+./selectionSort.exe < ./decrescente-10000 >> ./dados-decrescente.csv
+./selectionSort.exe < ./decrescente-50000 >> ./dados-decrescente.csv
+./selectionSort.exe < ./decrescente-100000 >> ./dados-decrescente.csv
+echo metodo,tamanho,tempo,comparacoes,trocas >> ./dados-aleatorio.csv
+./bubbleSort.exe < ./aleatorio-10000 >> ./dados-aleatorio.csv
+./bubbleSort.exe < ./aleatorio-50000 >> ./dados-aleatorio.csv
+./bubbleSort.exe < ./aleatorio-100000 >> ./dados-aleatorio.csv
+./insertionSort.exe < ./aleatorio-10000 >> ./dados-aleatorio.csv
+./insertionSort.exe < ./aleatorio-50000 >> ./dados-aleatorio.csv
+./insertionSort.exe < ./aleatorio-100000 >> ./dados-aleatorio.csv
+./selectionSort.exe < ./aleatorio-10000 >> ./dados-aleatorio.csv
+./selectionSort.exe < ./aleatorio-50000 >> ./dados-aleatorio.csv
+./selectionSort.exe < ./aleatorio-100000 >> ./dados-aleatorio.csv
+
