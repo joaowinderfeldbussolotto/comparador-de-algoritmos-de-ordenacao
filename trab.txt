@@ -85,3 +85,54 @@ Tamanho: 50000
 Tempo: 3.663760 (s) 
 Numero de comparacoes: 1249975000
 Numero de trocas: 25000
+----Selection sort----
+Tamanho: 100000
+Tempo: 14.647003 (s) 
+Numero de comparacoes: 4999950000
+Numero de trocas: 50000
+Aleatorio 
+----Bubble sort----
+Tamanho: 10000
+Tempo: 0.418927 (s) 
+Numero de comparacoes: 49995000
+Numero de trocas: 24905373
+----Bubble sort----
+Tamanho: 50000
+Tempo: 11.632973 (s) 
+Numero de comparacoes: 1249975000
+Numero de trocas: 626412981
+----Bubble sort----
+Tamanho: 100000
+Tempo: 47.930525 (s) 
+Numero de comparacoes: 4999950000
+Numero de trocas: 2494692214
+----Insertion sort----
+Tamanho: 10000
+Tempo: 0.202297 (s) 
+Numero de comparacoes: 24915368
+Numero de trocas: 24905373
+----Insertion sort----
+Tamanho: 50000
+Tempo: 6.025731 (s) 
+Numero de comparacoes: 626462968
+Numero de trocas: 626412981
+----Insertion sort----
+Tamanho: 100000
+Tempo: 19.264944 (s) 
+Numero de comparacoes: 2494792199
+Numero de trocas: 2494692214
+----Selection sort----
+Tamanho: 10000
+Tempo: 0.121525 (s) 
+Numero de comparacoes: 49995000
+Numero de trocas: 9993
+----Selection sort----
+Tamanho: 50000
+Tempo: 3.359929 (s) 
+Numero de comparacoes: 1249975000
+Numero de trocas: 49990
+----Selection sort----
+Tamanho: 100000
+Tempo: 13.551833 (s) 
+Numero de comparacoes: 4999950000
+Numero de trocas: 99988
