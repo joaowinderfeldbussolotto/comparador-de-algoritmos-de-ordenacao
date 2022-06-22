@@ -19,7 +19,7 @@ int *generateRandomArray(int len, int mode)
     }
     else if (mode == 2)
     {
-      *(v + i) = MAX -i;
+      *(v + i) = len -i;
     }
     else
     {

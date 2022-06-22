@@ -110,22 +110,18 @@ void selectionSort(int *v, int len)
   long long int numCompare, numSwaps;
   numCompare = numSwaps = 0;
   gettimeofday(&start, NULL);
-  for (j = 0; j < len - 1; j++)
+  for (i = 0; i < len - 1; i++)
   {
-    min = j;
-    for (i = j + 1; i < len; i++)
+    for (j = i; j < len; j++)
     {
-      if (v[i] < v[min])
-      {
-        min = i;
-      }
       numCompare++;
+      if (v[j] < v[i])
+      {
+        swap(i,j,v);
+        numSwaps++;
+      }
     }
-    if (min != j)
-    {
-      swap(j, min, v);
-      numSwaps++;
-    }
+   
   }
   gettimeofday(&stop, NULL);
 
@@ -138,12 +134,13 @@ void insertionSort(int *v, int len)
    int i,j;
    long long int numCompare, numSwaps;
    numCompare = numSwaps = 0;
-  gettimeofday(&start, NULL);
+   gettimeofday(&start, NULL);
    for (i = 1; i < len; i++){
-    j = i;
-    while (j > 0 && v[j-1] > v[j]){
+    int key = v[i];
+    j = i -1;
+    while (j > 0 && v[j] > key){
         numCompare++;
-        swap(j,j-1, v);
+        swap(j,j+1, v);
         numSwaps++;
         j--;
     }

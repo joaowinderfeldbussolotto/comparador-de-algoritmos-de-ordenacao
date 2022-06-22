@@ -28,4 +28,3 @@ insertionSort.exe < aleatorio-100000 >> dados-aleatorio.csv
 selectionSort.exe < aleatorio-10000 >> dados-aleatorio.csv
 selectionSort.exe < aleatorio-50000 >> dados-aleatorio.csv
 selectionSort.exe < aleatorio-100000 >> dados-aleatorio.csv
-
